@@ -52,7 +52,7 @@ local Window = Rayfield:CreateWindow({
  local Button = Tab:CreateButton({
    Name = "ReAnimation",
    Callback = function()
-      loadstring(game:HttpGet(('https://raw.githubusercontent.com/emiroski/HMSV2/refs/heads/main/Reanim.lua?token=GHSAT0AAAAAADC3LO4PANADERJZERMZELDI2AMDVKQ')))() -- The function that takes place when the button is pressed
+      loadstring(game:HttpGet(('https://raw.githubusercontent.com/emiroski/HMSFIXED/refs/heads/main/reanim.lua')))() -- The function that takes place when the button is pressed
    end,
 })
 
