@@ -1,4 +1,4 @@
--the funny(fixed by NotSoSquirrel)
+-- the funny(fixed by NotSoSquirrel)
 local fake_transparency = 0.8
 
 
