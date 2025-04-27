@@ -49,6 +49,20 @@ local Window = Rayfield:CreateWindow({
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "Big Baseplate",
+   Callback = function()
+      loadstring(game:HttpGet(('https://raw.githubusercontent.com/emiroski/HMSFIXED/refs/heads/main/baseplate.lua')))() -- The function that takes place when the button is pressed
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "FaceFuck (Press Z)",
+   Callback = function()
+      loadstring(game:HttpGet(('https://raw.githubusercontent.com/emiroski/HMSFIXED/refs/heads/main/facebang.lua')))() -- The function that takes place when the button is pressed
+   end,
+})
+
  local Button = Tab:CreateButton({
    Name = "ReAnimation",
    Callback = function()
