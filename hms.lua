@@ -5,7 +5,7 @@ local Window = Rayfield:CreateWindow({
     Name = "Hypra's Mic Up Script (Every Thing Can Change At Anytime)",
     Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
     LoadingTitle = "HMS",
-    LoadingSubtitle = "by Hypra / Suzak",
+    LoadingSubtitle = "by Hypra",
     Theme = "Serenity", -- Check https://docs.sirius.menu/rayfield/configuration/themes
  
     DisableRayfieldPrompts = false,
